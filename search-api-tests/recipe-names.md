@@ -22,19 +22,20 @@ Yes, after a few months we finally found the answer. Sadly, Mike is on vacations
 
 | URL | Status |
 | --- | --- | --- | --- | --- | --- |
-| [http://localhost:3000/api/attribute?filter\[where\]\[type\]=allergy](http://localhost:3000/api/attribute?filter[where][type]=allergy) | **works** |
-| [http://localhost:3000/api/attribute?filter\[where\]\[and\]\[\]\[type\]=allergy](http://localhost:3000/api/attribute?filter[where][and][][type]=allergy) | **works** |
-| [http://localhost:3000/api/attribute?filter\[where\]\[id\]=5abc4e9da2738950031da898](http://localhost:3000/api/attribute?filter[where][id]=5abc4e9da2738950031da898) | **works** |
-| [http://localhost:3000/api/attribute?filter\[where\]\[and\]\[\]\[type\]=allergy&filter\[where\]\[and\]\[\]\[name\]=Egg-Free](http://localhost:3000/api/attribute?filter[where][and][][type]=allergy&filter[where][and][][name]=Egg-Free) | **works** |
-| [http://localhost:3000/api/attribute?filter\[where\]\[and\]\[\]\[type\]=allergy&filter\[where\]\[and\]\[\]\[id\]=5abc4e9da2738950031da898](http://localhost:3000/api/attribute?filter[where][and][][type]=allergy&filter[where][and][][id]=5abc4e9da2738950031da898) |  |
+| [http://localhost:3000/api/recipe?filter\[where\]\[title\]\[like\]=Chicken](http://localhost:3000/api/recipe?filter[where][title][like]=Chicken) | **works** |
+| [http://localhost:3000/api/recipe?filter\[where\]\[title\]\[like\]=Apple](http://localhost:3000/api/recipe?filter[where][title][like]=Apple) | **works** |
+| [http://localhost:3000/api/recipe?filter\[where\]\[id\]=5abc504c502648524bc3cad3 ](http://localhost:3000/api/recipe?filter[where][id]=5abc504c502648524bc3cad3
+) | **works** |
+|  |  |
+|  |  |
 
 ## Hosted links
 
 | URL | Status |
 | --- | --- | --- | --- | --- | --- |
-|  | **works** |
-|  | **works** |
-|  | **works** |
-|  | **works** |
+| [https://loopback-recipe-search.herokuapp.com/api/recipe?filter\[where\]\[title\]\[like\]=Chicken](https://loopback-recipe-search.herokuapp.com/api/recipe?filter[where][title][like]=Chicken) | **works** |
+| [https://loopback-recipe-search.herokuapp.com/api/recipe?filter\[where\]\[title\]\[like\]=Apple](https://loopback-recipe-search.herokuapp.com/api/recipe?filter[where][title][like]=Apple) | **works** |
+| [https://loopback-recipe-search.herokuapp.com/api/recipe?filter\[where\]\[id\]=5abc504c502648524bc3cad3](https://loopback-recipe-search.herokuapp.com/api/recipe?filter[where][id]=5abc504c502648524bc3cad3) | **works** |
+|  |  |
 |  |  |
 
