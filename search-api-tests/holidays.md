@@ -22,19 +22,19 @@ Yes, after a few months we finally found the answer. Sadly, Mike is on vacations
 
 | URL | Status |
 | --- | --- | --- | --- | --- | --- |
-| [http://localhost:3000/api/attribute?filter\[where\]\[type\]=allergy](http://localhost:3000/api/attribute?filter[where][type]=allergy) | **works** |
-| [http://localhost:3000/api/attribute?filter\[where\]\[and\]\[\]\[type\]=allergy](http://localhost:3000/api/attribute?filter[where][and][][type]=allergy) | **works** |
-| [http://localhost:3000/api/attribute?filter\[where\]\[id\]=5abc4e9da2738950031da898](http://localhost:3000/api/attribute?filter[where][id]=5abc4e9da2738950031da898) | **works** |
-| [http://localhost:3000/api/attribute?filter\[where\]\[and\]\[\]\[type\]=allergy&filter\[where\]\[and\]\[\]\[name\]=Egg-Free](http://localhost:3000/api/attribute?filter[where][and][][type]=allergy&filter[where][and][][name]=Egg-Free) | **works** |
-| [http://localhost:3000/api/attribute?filter\[where\]\[and\]\[\]\[type\]=allergy&filter\[where\]\[and\]\[\]\[id\]=5abc4e9da2738950031da898](http://localhost:3000/api/attribute?filter[where][and][][type]=allergy&filter[where][and][][id]=5abc4e9da2738950031da898) |  |
+| [http://localhost:3000/api/attribute?filter\[where\]\[and\]\[\]\[type\]=holiday](http://localhost:3000/api/attribute?filter[where][and][][type]=holiday) | **works** |
+|  | **works** |
+| [http://localhost:3000/api/attribute?filter\[where\]\[id\]=5abc4e9da2738950031da8cf](http://localhost:3000/api/attribute?filter[where][id]=5abc4e9da2738950031da8cf) | **works** |
+| [http://localhost:3000/api/attribute?filter\[where\]\[and\]\[\]\[type\]=holiday&filter\[where\]\[and\]\[\]\[name\]=Thanksgiving](http://localhost:3000/api/attribute?filter[where][and][][type]=holiday&filter[where][and][][name]=Thanksgiving) | **works** |
+| [http://localhost:3000/api/attribute?filter\[where\]\[and\]\[\]\[type\]=holiday&filter\[where\]\[and\]\[\]\[id\]=5abc4e9da2738950031da8c9](http://localhost:3000/api/attribute?filter[where][and][][type]=holiday&filter[where][and][][id]=5abc4e9da2738950031da8c9) |  |
 
 ## Hosted links
 
 | URL | Status |
 | --- | --- | --- | --- | --- | --- |
-|  | **works** |
-|  | **works** |
-|  | **works** |
-|  | **works** |
+| [https://loopback-recipe-search.herokuapp.com/api/attribute?filter\[where\]\[and\]\[\]\[type\]=holiday](https://loopback-recipe-search.herokuapp.com/api/attribute?filter[where][and][][type]=holiday) | **works** |
+| [https://loopback-recipe-search.herokuapp.com/api/attribute?filter\[where\]\[id\]=5abc4e9da2738950031da8cf](https://loopback-recipe-search.herokuapp.com/api/attribute?filter[where][id]=5abc4e9da2738950031da8cf) | **works** |
+| [https://loopback-recipe-search.herokuapp.com/api/attribute?filter\[where\]\[and\]\[\]\[type\]=holiday&filter\[where\]\[and\]\[\]\[name\]=Thanksgiving](https://loopback-recipe-search.herokuapp.com/api/attribute?filter[where][and][][type]=holiday&filter[where][and][][name]=Thanksgiving) | **works** |
+| [https://loopback-recipe-search.herokuapp.com/api/attribute?filter\[where\]\[and\]\[\]\[type\]=allergy&filter\[where\]\[and\]\[\]\[id\]=5abc4e9da2738950031da898](https://loopback-recipe-search.herokuapp.com/api/attribute?filter[where][and][][type]=allergy&filter[where][and][][id]=5abc4e9da2738950031da898) | **works** |
 |  |  |
 

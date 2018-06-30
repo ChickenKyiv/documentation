@@ -22,19 +22,19 @@ Yes, after a few months we finally found the answer. Sadly, Mike is on vacations
 
 | URL | Status |
 | --- | --- | --- | --- | --- | --- |
-| [http://localhost:3000/api/attribute?filter\[where\]\[type\]=allergy](http://localhost:3000/api/attribute?filter[where][type]=allergy) | **works** |
-| [http://localhost:3000/api/attribute?filter\[where\]\[and\]\[\]\[type\]=allergy](http://localhost:3000/api/attribute?filter[where][and][][type]=allergy) | **works** |
-| [http://localhost:3000/api/attribute?filter\[where\]\[id\]=5abc4e9da2738950031da898](http://localhost:3000/api/attribute?filter[where][id]=5abc4e9da2738950031da898) | **works** |
-| [http://localhost:3000/api/attribute?filter\[where\]\[and\]\[\]\[type\]=allergy&filter\[where\]\[and\]\[\]\[name\]=Egg-Free](http://localhost:3000/api/attribute?filter[where][and][][type]=allergy&filter[where][and][][name]=Egg-Free) | **works** |
-| [http://localhost:3000/api/attribute?filter\[where\]\[and\]\[\]\[type\]=allergy&filter\[where\]\[and\]\[\]\[id\]=5abc4e9da2738950031da898](http://localhost:3000/api/attribute?filter[where][and][][type]=allergy&filter[where][and][][id]=5abc4e9da2738950031da898) |  |
+| ​[http://localhost:3000/api/attribute?filter\[where\]\[type\]=course](http://localhost:3000/api/attribute?filter[where][type]=course) | **works** |
+| ​[http://localhost:3000/api/attribute?filter\[where\]\[and\]\[\]\[type\]=course](http://localhost:3000/api/attribute?filter[where][and][][type]=course) | **works** |
+| ​[http://localhost:3000/api/attribute?filter\[where\]\[id\]=5abc4e9da2738950031da8a2](http://localhost:3000/api/attribute?filter[where][id]=5abc4e9da2738950031da8a2) | **works** |
+| [http://localhost:3000/api/attribute?filter\[where\]\[and\]\[\]\[type\]=course&filter\[where\]\[and\]\[\]\[name\]=Desserts](http://localhost:3000/api/attribute?filter[where][and][][type]=course&filter[where][and][][name]=Desserts) | **works** |
+| [http://localhost:3000/api/attribute?filter\[where\]\[and\]\[\]\[type\]=course&filter\[where\]\[and\]\[\]\[id\]=5abc4e9da2738950031da8a2](http://localhost:3000/api/attribute?filter[where][and][][type]=course&filter[where][and][][id]=5abc4e9da2738950031da8a2) |  |
 
 ## Hosted links
 
 | URL | Status |
 | --- | --- | --- | --- | --- | --- |
-|  | **works** |
-|  | **works** |
-|  | **works** |
-|  | **works** |
-|  |  |
+| [https://loopback-recipe-search.herokuapp.com/api/attribute?filter\[where\]\[type\]=course](https://loopback-recipe-search.herokuapp.com/api/attribute?filter[where][type]=course) | **works** |
+| ​[https://loopback-recipe-search.herokuapp.com/api/attribute?filter\[where\]\[and\]\[\]\[type\]=course](https://loopback-recipe-search.herokuapp.com/api/attribute?filter[where][and][][type]=course) | **works** |
+| ​[https://loopback-recipe-search.herokuapp.com/api/attribute?filter\[where\]\[id\]=5abc4e9da2738950031da8a2](https://loopback-recipe-search.herokuapp.com/api/attribute?filter[where][id]=5abc4e9da2738950031da8a2) | **works** |
+| [https://loopback-recipe-search.herokuapp.com/api/attribute?filter\[where\]\[and\]\[\]\[type\]=course&filter\[where\]\[and\]\[\]\[name\]=Desserts](https://loopback-recipe-search.herokuapp.com/api/attribute?filter[where][and][][type]=course&filter[where][and][][name]=Desserts) | **works** |
+| [https://loopback-recipe-search.herokuapp.com/api/attribute?filter\[where\]\[and\]\[\]\[type\]=course&filter\[where\]\[and\]\[\]\[id\]=5abc4e9da2738950031da8a2](https://loopback-recipe-search.herokuapp.com/api/attribute?filter[where][and][][type]=course&filter[where][and][][id]=5abc4e9da2738950031da8a2) | **works** |
 
