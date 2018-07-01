@@ -20,4 +20,5 @@
   * [Recipes By Name](simple-queries/recipes-by-name.md)
   * [Recipe Cases](simple-queries/recipe-cases.md)
   * [Attributes that will return one or more recipes](simple-queries/attributes-that-will-return-one-or-more-recipes.md)
+  * [Recipes + Attributes](simple-queries/recipes-+-attributes.md)
 

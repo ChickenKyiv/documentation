@@ -6,9 +6,11 @@ description: >-
 
 # Recipe Names
 
-## Can I become who I want to be?
+## How i can fetch all recipes that we have
 
-That's a tough question but thankfully, our team is on it. Please bear with us while we're investigating.
+So in order to get data about recipes, you can use swagger link: [http://localhost:3000/explorer/\#!/Recipe/Recipe\_find](http://localhost:3000/explorer/#!/Recipe/Recipe_find)  
+or  
+[http://localhost:3000/api/recipe](http://localhost:3000/api/recipe)
 
 ## Have you had a chance to answer the previous question?
 
