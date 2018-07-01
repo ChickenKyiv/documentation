@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [How To test Search API?](README.md)
 * [Tests](tests.md)
 * [ChickenKyiv Free Menu Release](chickenkyiv-free-menu-release.md)
 * [Search API tests](search-api-tests/README.md)
@@ -13,4 +13,8 @@
   * [Courses](search-api-tests/courses.md)
   * [Ingredients](search-api-tests/ingredients.md)
   * [Recipe Names](search-api-tests/recipe-names.md)
+* [Simple Queries](simple-queries.md)
+* [Ingredients By Name](ingredients-by-name.md)
+* [Attributes by name](attributes-by-name.md)
+* [Recipes By Name](recipes-by-name.md)
 
