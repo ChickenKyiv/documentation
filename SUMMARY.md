@@ -17,4 +17,5 @@
   * [Ingredients By Name](simple-queries/ingredients-by-name.md)
   * [Attributes by name](simple-queries/attributes-by-name.md)
   * [Recipes By Name](simple-queries/recipes-by-name.md)
+* [Recipe Cases](recipe-cases.md)
 

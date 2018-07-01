@@ -22,7 +22,7 @@ Celery
 
 This 3 URLs not working
 
-This ingredients attached to different recipes
+This ingredients attached to different recipes\(OR NOT\)
 
 ```text
 scallions
@@ -32,5 +32,13 @@ beef roast
 black pepper
 ```
 
-
+```text
+Black Pepper
+apple
+sugar
+water
+mozarella cheese
+Potatoes
+scallions
+```
 
