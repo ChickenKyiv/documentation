@@ -48,3 +48,68 @@ Halloween
 
 
 
+
+
+### Case 1 \(Diets\)
+
+```text
+Lacto vegetarian
+Pescetarian
+Vegan
+```
+
+URL = "black pepper"
+
+Return
+
+### Case 1 \(Holidays\)
+
+```text
+Christmas
+Thanksgiving
+Fall
+```
+
+URL = "black pepper"
+
+Return
+
+### Case 1 \(Cuisines\)
+
+```text
+American
+Asian
+Mexican
+```
+
+URL = "black pepper"
+
+Return
+
+
+
+### Case 1 \(Courses\)
+
+```text
+Main Dishes
+Desserts
+```
+
+URL = "black pepper"
+
+Return
+
+
+
+### Case 1 \(Allergies\)
+
+```text
+Gluten-Free
+Peanut-Free
+Soy-Free
+```
+
+URL = "black pepper"
+
+Return
+

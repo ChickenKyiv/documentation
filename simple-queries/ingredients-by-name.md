@@ -42,3 +42,32 @@ Potatoes
 scallions
 ```
 
+By searching one of this ingredient, server will return at least 2 recipes\(Single Ingredient mention\).
+
+URL = "black pepper"
+
+Return
+
+
+
+### Case 2
+
+We're using a few ingredients
+
+```text
+Apple
+Grapes
+```
+
+URL = "black pepper"
+
+Return
+
+
+
+### Case 3
+
+
+
+
+

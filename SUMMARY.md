@@ -4,6 +4,7 @@
 * [Tests](tests.md)
 * [ChickenKyiv Free Menu Release](chickenkyiv-free-menu-release.md)
 * [Search API tests](search-api-tests/README.md)
+  * [Search DB Schema](search-api-tests/search-db-schema.md)
   * [Search Form Tests](search-api-tests/search-form-tests.md)
   * [Attribute](search-api-tests/attribute.md)
   * [Allergy](search-api-tests/allergy.md)
@@ -17,5 +18,6 @@
   * [Ingredients By Name](simple-queries/ingredients-by-name.md)
   * [Attributes by name](simple-queries/attributes-by-name.md)
   * [Recipes By Name](simple-queries/recipes-by-name.md)
-* [Recipe Cases](recipe-cases.md)
+  * [Recipe Cases](simple-queries/recipe-cases.md)
+  * [Attributes that will return one or more recipes](simple-queries/attributes-that-will-return-one-or-more-recipes.md)
 
