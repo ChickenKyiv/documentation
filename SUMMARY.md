@@ -3,6 +3,8 @@
 * [How To test Search API?](README.md)
 * [Tests](tests.md)
 * [ChickenKyiv Free Menu Release](chickenkyiv-free-menu-release.md)
+* [Frontend](frontend/README.md)
+  * [React Components](frontend/react-components.md)
 * [Search API tests](search-api-tests/README.md)
   * [Search DB Schema](search-api-tests/search-db-schema.md)
   * [Search Form Tests](search-api-tests/search-form-tests.md)
