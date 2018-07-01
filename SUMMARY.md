@@ -13,8 +13,8 @@
   * [Courses](search-api-tests/courses.md)
   * [Ingredients](search-api-tests/ingredients.md)
   * [Recipe Names](search-api-tests/recipe-names.md)
-* [Simple Queries](simple-queries.md)
-* [Ingredients By Name](ingredients-by-name.md)
-* [Attributes by name](attributes-by-name.md)
-* [Recipes By Name](recipes-by-name.md)
+* [Simple Queries](simple-queries/README.md)
+  * [Ingredients By Name](simple-queries/ingredients-by-name.md)
+  * [Attributes by name](simple-queries/attributes-by-name.md)
+  * [Recipes By Name](simple-queries/recipes-by-name.md)
 
