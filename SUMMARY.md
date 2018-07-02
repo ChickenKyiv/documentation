@@ -14,7 +14,7 @@
     * [Holidays](search-api-tests/attribute/holidays.md)
     * [Cuisines](search-api-tests/attribute/cuisines.md)
     * [Courses](search-api-tests/attribute/courses.md)
-    * [Ingredients](search-api-tests/attribute/ingredients.md)
+  * [Ingredients](search-api-tests/ingredients.md)
   * [Recipe Names](search-api-tests/recipe-names.md)
   * [Simple Queries](search-api-tests/simple-queries/README.md)
     * [Ingredients By Name](search-api-tests/simple-queries/ingredients-by-name.md)
