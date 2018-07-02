@@ -24,7 +24,7 @@ We have x ingredients attached to departments and grocery
 
 
 
-{% page-ref page="search-api-tests/attribute.md" %}
+{% page-ref page="search-api-tests/attribute/" %}
 
 
 
