@@ -23,4 +23,5 @@
     * [Recipe Cases](search-api-tests/simple-queries/recipe-cases.md)
     * [Attributes that will return one or more recipes](search-api-tests/simple-queries/attributes-that-will-return-one-or-more-recipes.md)
     * [Recipes + Attributes](search-api-tests/simple-queries/recipes-+-attributes.md)
+* [ChickenKyiv Methods](chickenkyiv-methods.md)
 
