@@ -2,12 +2,8 @@
 
 
 
-## &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+## **Release 4 - Free Menu**
 
-> > > > > > > 78485626a618f65fd3d4cdd766204efa8de91060
-> > > > > > >
-> > > > > > > **Release 0 - Free Menu**
->
 > Chicken Kyiv is a service that can be used for developing meal planning software.
 
 **Summary**

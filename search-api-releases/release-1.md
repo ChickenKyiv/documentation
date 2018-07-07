@@ -2,7 +2,19 @@
 
 
 
-Release \#1 Heading: Form, connected with our search API. SubHeading: GET + POST queries. Displaying search results. Summary: In order to make our form working with our server -&gt; we should connect frontend + backend. Problem: our search server is partly completed, but not tested and don't have a frontend part. Solution: create a list of basic API endpoints and send data from form fields into our server.
+Release \#1 
+
+Heading: Form, connected with our search API. 
+
+SubHeading: GET + POST queries. Displaying search results. 
+
+Summary: In order to make our form working with our server -&gt; we should connect frontend + backend. 
+
+Problem: our search server is partly completed, but not tested and don't have a frontend part. 
+
+Solution: create a list of basic API endpoints and send data from form fields into our server.
+
+
 
 Display json results in our front page.
 
@@ -17,7 +29,7 @@ Customer Quote: With this form and data from the server we were able to reduce t
 
 Closing: Setup this developer version and save the time of your developers.
 
-**Release 0 - Free Menu**
+**Release 1 - Free Menu**
 
 > Chicken Kyiv is a service that can be used for developing meal planning software.
 
