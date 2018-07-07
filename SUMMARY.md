@@ -24,4 +24,9 @@
     * [Attributes that will return one or more recipes](search-api-tests/simple-queries/attributes-that-will-return-one-or-more-recipes.md)
     * [Recipes + Attributes](search-api-tests/simple-queries/recipes-+-attributes.md)
 * [ChickenKyiv Methods](chickenkyiv-methods.md)
+* [Database Schemes](database-schemes/README.md)
+  * [FoodLog](database-schemes/foodlog.md)
+  * [Recipe Steps](database-schemes/recipe-steps.md)
+  * [ChickenKyiv Schema](database-schemes/chickenkyiv-schema.md)
+  * [Recipe Search API Schema](database-schemes/recipe-search-api-schema.md)
 
