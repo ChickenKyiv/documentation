@@ -36,4 +36,7 @@
   * [Release \#2](search-api-releases/release-2.md)
   * [Release \#3](search-api-releases/release-3.md)
   * [Release \#4](search-api-releases/release-4.md)
+* [Recipe API Server Releases Plan](recipe-api-server-releases-plan.md)
+* [ChickenKyiv Homepage content](chickenkyiv-homepage-content.md)
+* [Links New](links-new.md)
 
