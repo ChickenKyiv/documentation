@@ -29,4 +29,5 @@
   * [Recipe Steps](database-schemes/recipe-steps.md)
   * [ChickenKyiv Schema](database-schemes/chickenkyiv-schema.md)
   * [Recipe Search API Schema](database-schemes/recipe-search-api-schema.md)
+  * [ShopList](database-schemes/shoplist.md)
 
