@@ -27,5 +27,4 @@
   * [Release \#2](recipebox-releases-plan/release-2.md)
   * [Release \#3](recipebox-releases-plan/release-3.md)
   * [Release \#4](recipebox-releases-plan/release-4.md)
-* [Untitled](untitled-1.md)
 
