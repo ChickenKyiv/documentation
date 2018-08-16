@@ -201,11 +201,10 @@ class Index extends React.Component {
 
     return (
       <div>
-        <HomeSplash language={language} />
+        {/* <HomeSplash language={language} /> */}
         <div className="mainContainer">
-          <Showcase language={language} />
-
-                  </div>
+          {/* <Showcase language={language} /> */}
+        </div>
       </div>
 
     );
