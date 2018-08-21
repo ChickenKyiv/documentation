@@ -1,5 +1,7 @@
 ---
-title: Release \#1
+id: release-1
+title: Release #1
+sidebar_label: | Release #1
 ---
 
 Separated Components Ingredients Directions Recipe Title + Ingredients Department title + Id + Ingredients list Other small ComponentsRecipe card with 4 different layouts

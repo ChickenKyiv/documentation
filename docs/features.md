@@ -1,11 +1,13 @@
 ---
+id: features
 title: Features
+sidebar_label: Features
 ---
 
 
 
-* [ ] Add JSLint checking at pull requests checks
-* [ ] Add Image upload for recipes
+* Add JSLint checking at pull requests checks
+* Add Image upload for recipes
 
 ## Description/Steps to reproduce
 
@@ -40,9 +42,9 @@ Search image for recipe, from API Voice create ingredient Voice fill recipe data
 
 #### Recipe + bot
 
-* [ ] Провести подготовительную работу
-* [ ] Детально описать, что именно я хочу парсить и каким образом
-* [ ] Могу юзать бота как конвентер данных
+* Провести подготовительную работу
+* Детально описать, что именно я хочу парсить и каким образом
+* Могу юзать бота как конвентер данных
 
 Bot "command" Bot convert thing to json [https://github.com/atherdon/botkit-my-slack/issues/90](https://github.com/atherdon/botkit-my-slack/issues/90)
 

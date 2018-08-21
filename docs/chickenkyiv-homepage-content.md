@@ -1,5 +1,7 @@
 ---
+id: chickenkyiv-homepage-content
 title: ChickenKyiv Homepage content
+sidebar_label: ChickenKyiv Homepage content
 ---
 
 You also can use this APi, in case that you have existing database and want to display your data via APi endpoinds. This feature can be used for different cases. Ex: You have a working project, but want to share data between webproject and your application. Ex: You want to sell data, that you have, providing access to your data via API: Yummly like and others

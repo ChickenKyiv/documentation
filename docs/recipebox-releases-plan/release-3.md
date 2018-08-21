@@ -1,5 +1,7 @@
 ---
-title: Release \#3
+id: release-3
+title: Release #3
+sidebar_label: | Release #3
 ---
 
 Connect to API Submit Recipe Login List of Inner pages

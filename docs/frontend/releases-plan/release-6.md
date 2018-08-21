@@ -1,5 +1,7 @@
 ---
-title: Release \#6
+id: release-6
+title: Release #6
+sidebar_label: | Release #6
 ---
 
 
