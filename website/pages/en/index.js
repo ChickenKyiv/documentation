@@ -4,6 +4,7 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
+
 const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
@@ -75,13 +76,10 @@ class HomeSplash extends React.Component {
     let language = this.props.language || '';
     return (
       <SplashContainer>
-        <Logo img_src={imgUrl('docusaurus.svg')} />
+        <Logo img_src={imgUrl('Chicken Kyiv Logos_Transparent background.png')} />
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html', language)}>Example Link</Button>
-            <Button href={docUrl('doc2.html', language)}>Example Link 2</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -94,7 +92,7 @@ const Block = props => (
     padding={['bottom', 'top']}
     id={props.id}
     background={props.background}>
-    <GridBlock align="center" contents={props.children} layout={props.layout} />
+    <GridBlock align="left" contents={props.children} layout={props.layout} />
   </Container>
 );
 
@@ -116,16 +114,119 @@ const Features = props => (
     ]}
   </Block>
 );
+const MainPage = props => (
+  <div
+    className="productShowcaseSection paddingBottom"
+    style={{textAlign: 'center'}}>
 
+        <div className = "tableofcontents">
+
+      <br/>API server for recipe based projects. If you want to have an app or website with recipes, but don't want to spend a lot of time - this can be a good choice.
+      <br/>Main Weekly Menu(created and stored by chief) Cloned to user section if user want to add some changes. When user remove recipe, change servings, rearrange recipes order, replace recipe to another - Menu copied to user collection  and weekly menu id updated from Main WM to Cloned WM
+
+        <br/><h3>GL</h3>
+            <ul>
+              <li>   add </li>
+            <li>  created from Main Menu(nothing was changed)</li>
+          <li>    created from User Menu (GL not saved to db in this case)</li>
+          <li>    if user want to add some products to GL - we create GL related to User Menu for this week</li>
+          <li>    when user check ingredient(we assume he buy it) - this ingredient moved to Purchased. Purchased must have this information: qty / Date / notes/ place where it was buyed.</li>
+          </ul>
+      </div>
+
+
+  </div>
+);
 const FeatureCallout = props => (
   <div
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <h2>Feature Callout</h2>
-    <MarkdownBlock>These are features of this project</MarkdownBlock>
+    <h2>Table of contents</h2>
+        <div className = "tableofcontents">
+
+          <ul>
+  <li><a href="/documentation/docs/features.html">Features</a></li>
+  <li><a href="/documentation/docs/tests.html">Tests</a></li>
+  <li><a href="/documentation/docs/chickenkyiv-free-menu-release.html">ChickenKyiv Free Menu Release</a></li>
+  <li><a href="/documentation/docs/frontend/frontend.html">Frontend</a>
+  <ul>
+  <li><a href="/documentation/docs/frontend/react-components.html">React Components</a></li>
+  <li><a href="/documentation/docs/frontend/releases-plan/releases-plan.html">Releases Plan</a>
+  <ul>
+  <li><a href="/documentation/docs/frontend/releases-plan/release-0.html">Release #0</a></li>
+  <li><a href="/documentation/docs/frontend/releases-plan/release-1.html">Release #1</a></li>
+  <li><a href="/documentation/docs/frontend/releases-plan/release-2.html">Release #2</a></li>
+  <li><a href="/documentation/docs/frontend/releases-plan/release-3.html">Release #3</a></li>
+  <li><a href="/documentation/docs/frontend/releases-plan/release-4.html">Release #4</a></li>
+  <li><a href="/documentation/docs/frontend/releases-plan/release-5.html">Release #5</a></li>
+  <li><a href="/documentation/docs/frontend/releases-plan/release-6.html">Release #6</a></li>
+  <li><a href="/documentation/docs/frontend/releases-plan/release-7.html">Release #7</a></li>
+  </ul></li>
+  <li><a href="/documentation/docs/recipebox-releases-plan/recipebox-releases-plan.html">RecipeBox Releases Plan</a>
+  <ul>
+  <li><a href="/documentation/docs/recipebox-releases-plan/release-0.html">Release #0</a></li>
+  <li><a href="/documentation/docs/recipebox-releases-plan/release-1.html">Release #1</a></li>
+  <li><a href="/documentation/docs/recipebox-releases-plan/release-2.html">Release #2</a></li>
+  <li><a href="/documentation/docs/recipebox-releases-plan/release-3.html">Release #3</a></li>
+  <li><a href="/documentation/docs/recipebox-releases-plan/release-4.html">Release #4</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="/documentation/docs/recipe-api-server-releases-plan/recipe-api-server-releases-plan.html">Recipe API Server Releases Plan</a>
+  <ul>
+  <li><a href="/documentation/docs/recipe-api-server-releases-plan/release-0.html">Release #0</a></li>
+  <li><a href="/documentation/docs/recipe-api-server-releases-plan/release-1.html">Release #1</a></li>
+  <li><a href="/documentation/docs/recipe-api-server-releases-plan/release-2.html">Release #2</a></li>
+  <li><a href="/documentation/docs/recipe-api-server-releases-plan/release-3.html">Release #3</a></li>
+  <li><a href="/documentation/docs/recipe-api-server-releases-plan/release-4.html">Release #4</a></li>
+  </ul></li>
+  <li><a href="/documentation/docs/chickenkyiv-methods.html">ChickenKyiv Methods</a></li>
+  <li><a href="/documentation/docs/database-schemes/database-schemes.html">Database Schemes</a>
+  <ul>
+  <li><a href="/documentation/docs/database-schemes/foodlog.html">FoodLog</a></li>
+  <li><a href="/documentation/docs/database-schemes/recipe-steps.html">Recipe Steps</a></li>
+  <li><a href="/documentation/docs/database-schemes/chickenkyiv-schema.html">ChickenKyiv Schema</a></li>
+  <li><a href="/documentation/docs/database-schemes/recipe-search-api-schema.html">Recipe Search API Schema</a></li>
+  <li><a href="/documentation/docs/database-schemes/shoplist.html">ShopList</a></li>
+  </ul></li>
+  <li><a href="/documentation/docs/links-new.html">Links New</a></li>
+  <li><a href="/documentation/docs/chickenkyiv-homepage-content.html">ChickenKyiv Homepage content</a></li>
+  </ul>
+
+      </div>
+
+
   </div>
 );
+const FeatureCallout2 = props => (
 
+  <div className = "ogg" style={{textAlign: 'left'}}>
+    <div className="wrapper">
+      <div className="gridBlock">
+        <div className="blockElement imageAlignSide imageAlignLeft twoByGridBlock">
+          <div className="blockImage">
+            <img src="/recipe-app-react-native/img/54A84DCB-F7EE-49E3-8DA1-1EF07F873622.png">
+
+            </img>
+          </div>
+          <div className="blockContent"><h2><div><span><p>Description</p>
+    </span></div></h2><div><span><p>
+        Build with: Angular, Ionic Framework v.1
+      <ul>
+        <h3>Basic functionality:</h3>
+        <li>Screen with recipes list</li>
+        <li>Recipe details</li>
+        <li>Basic grocery list</li>
+        <li>Login screen.</li>
+    </ul>
+
+
+
+      </p>
+    </span></div></div></div>
+      </div>
+    </div>
+  </div>
+);
 const LearnHow = props => (
   <Block background="light">
     {[
@@ -143,8 +244,8 @@ const TryOut = props => (
   <Block id="try">
     {[
       {
-        content: 'Talk about trying this out',
-        image: imgUrl('docusaurus.svg'),
+        content: 'Release #1 completed(Free Menu) ^ Build with: Angular, Ionic Framework v.1 Note: soon I’ll redo an app from scratch.',
+        image: imgUrl('54A84DCB-F7EE-49E3-8DA1-1EF07F873622.png'),
         imageAlign: 'left',
         title: 'Try it Out',
       },
@@ -201,14 +302,21 @@ class Index extends React.Component {
 
     return (
       <div>
-        {/* <HomeSplash language={language} /> */}
+        <HomeSplash language={language} />
         <div className="mainContainer">
-          {/* <Showcase language={language} /> */}
+          {/* <Features /> */}
+           {/* <TryOut /> */}
+
+          <MainPage />
+          <FeatureCallout />
+
+           {/* <LearnHow /> */}
+
+          {/* <Description />  */}
+           {/* <Showcase language={language} /> */}
         </div>
       </div>
-
     );
-
   }
 }
 

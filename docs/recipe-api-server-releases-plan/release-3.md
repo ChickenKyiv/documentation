@@ -1,6 +1,9 @@
 ---
-title: Release \#3
+id: release-3
+title: Release #3
+sidebar_label: Release #3
 ---
+
 
 **Release 3 - Free Menu**
 

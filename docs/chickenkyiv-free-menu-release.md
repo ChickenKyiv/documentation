@@ -1,5 +1,7 @@
 ---
-title: ChickenKyiv Free Menu Release
+id: chickenkyiv-free-menu-release
+title: ChickenKyiv Free Menu Release API Server
+sidebar_label: ChickenKyiv Free Menu Release API Server
 ---
 
 ### API endpoints \( Free Menu Release \)

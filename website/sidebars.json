@@ -1,10 +1,47 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    " ":["features","tests","chickenkyiv-free-menu-release"],
+    "Frontend":[
+      "frontend/frontend",
+        "frontend/react-components",
+        "frontend/releases-plan/releases-plan",
+          "frontend/releases-plan/release-0",
+          "frontend/releases-plan/release-1",
+          "frontend/releases-plan/release-2",
+          "frontend/releases-plan/release-3",
+          "frontend/releases-plan/release-4",
+          "frontend/releases-plan/release-5",
+          "frontend/releases-plan/release-6",
+          "frontend/releases-plan/release-7",
+          "recipebox-releases-plan/recipebox-releases-plan",
+          "recipebox-releases-plan/release-0",
+          "recipebox-releases-plan/release-1",
+          "recipebox-releases-plan/release-2",
+          "recipebox-releases-plan/release-3",
+          "recipebox-releases-plan/release-4"
+        ],
+        "Recipe API Server Releases Plan":
+        [
+          "recipe-api-server-releases-plan/recipe-api-server-releases-plan",
+          "recipe-api-server-releases-plan/release-0",
+          "recipe-api-server-releases-plan/release-1",
+          "recipe-api-server-releases-plan/release-2",
+          "recipe-api-server-releases-plan/release-3",
+          "recipe-api-server-releases-plan/release-4"
+        ],
+        "  ":["chickenkyiv-methods"],
+
+        "Database Schemes":[
+
+          "database-schemes/database-schemes",
+            "database-schemes/foodlog",
+            "database-schemes/recipe-steps",
+            "database-schemes/chickenkyiv-schema",
+            "database-schemes/recipe-search-api-schema",
+            "database-schemes/shoplist"
+        ],
+        "   ":["links-new",
+        "chickenkyiv-homepage-content"]
+
   }
 }

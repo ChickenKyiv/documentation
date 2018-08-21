@@ -1,5 +1,7 @@
 ---
+id: releases-plan
 title: Releases Plan
+sidebar_label: Releases Plan
 ---
 
 
@@ -21,10 +23,11 @@ Once the project moves into development, the press release can be used as a touc
 
 ### Releases list
 
-* Release \#0
-* Release \#0
-* Release \#0
-* Release \#0
-* Release \#0
-* Release \#0
-* Release \#0
+* [Release \#0](frontend/releases-plan/release-0.md)
+* [Release \#1](frontend/releases-plan/release-1.md)
+* [Release \#2](frontend/releases-plan/release-2.md)
+* [Release \#3](frontend/releases-plan/release-3.md)
+* [Release \#4](frontend/releases-plan/release-4.md)
+* [Release \#5](frontend/releases-plan/release-5.md)
+* [Release \#6](frontend/releases-plan/release-6.md)
+* [Release \#7](frontend/releases-plan/release-7.md)
