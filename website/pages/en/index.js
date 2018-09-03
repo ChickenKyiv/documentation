@@ -116,7 +116,7 @@ const Features = props => (
 );
 const MainPage = props => (
   <div
-    className="productShowcaseSection paddingBottom"
+    className="showcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
 
         <div className = "tableofcontents">
@@ -139,7 +139,7 @@ const MainPage = props => (
 );
 const FeatureCallout = props => (
   <div
-    className="productShowcaseSection paddingBottom"
+    className="showcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
     <h2>Table of contents</h2>
         <div className = "tableofcontents">
@@ -283,7 +283,7 @@ const Showcase = props => {
     });
 
   return (
-    <div className="productShowcaseSection paddingBottom">
+    <div className="showcaseSection paddingBottom">
       <h2>{"Who's Using This?"}</h2>
       <p>This project is used by all these people</p>
       <div className="logos">{showcase}</div>
