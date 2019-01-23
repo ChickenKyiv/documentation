@@ -1,3 +1,9 @@
+---
+id: recipe-book
+title: Recipe Book details(similar project)
+sidebar_label: Recipe Book explanation
+---
+
 # Recipe Book
 
 ## Topics
